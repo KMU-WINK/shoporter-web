@@ -11,9 +11,9 @@
 </template>
 
 <script>
-import bottomTabBar from './components/bottomTabBar.vue'
+import bottomTabBar from './components/BottomTabBar.vue'
 // import login from './components/login';
-import totalMoney from "./components/totalMoney.vue"
+import totalMoney from "./components/TotalMoney.vue"
 import Button from './components/Button.vue'
 import Selectbar from './components/Selectbar.vue'
 import Header from './components/Header.vue'
