@@ -3,7 +3,7 @@
     <totalMoney :callItem="1239" :totalSell="3123"/>
     <bottomTabBar />
     <Button />
-    <ShoppingTotal picture_src="../static/assets/coupangLogo.png" shopName="쿠팡" order="20" cancel="20" question="20"/>
+    <Selectbar />
   </div>
 </template>
 
@@ -12,14 +12,16 @@ import bottomTabBar from './components/bottomTabBar.vue'
 import totalMoney from "./components/totalMoney.vue";
 import Button from './components/Button.vue'
 import ShoppingTotal from "@/components/ShoppingTotal";
+import Selectbar from './components/Selectbar.vue'
 
 export default {
   name: 'App',
   components: {
     bottomTabBar,
-    totalMoney,
     Button,
     ShoppingTotal,
+    Selectbar
+    totalMoney,
   }
 }
 </script>
