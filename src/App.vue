@@ -1,27 +1,20 @@
 <template>
   <div id="app">
     <bottomTabBar/>
-    <login picture_src= static/assets/coupangLogo.png />
-    <Test :test3="test3"/>
+    <login picture_src= 'coupangLogo.png' />
   </div>
 </template>
 
 <script>
 import bottomTabBar from './components/bottomTabBar.vue'
-import Test from './components/Test';
 import login from './components/login';
+
 export default {
   name: 'App',
   components: {
     bottomTabBar,
-    Test,
     login,
   },
-  data(){
-    return{
-      test3:"asdf"
-    }
-  }
 }
 </script>
 

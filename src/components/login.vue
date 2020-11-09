@@ -2,7 +2,7 @@
   <div class="modal">
     <div class="modalContent">
       <div class="title">
-        <div><img :src="picture_src" class="cupang" /></div>
+        <div><img :src= "resolve_img_url(picture_src)" class="cupang" /></div>
         <div>쿠팡 로그인</div>
       </div>
       <div class="mainContainer">
@@ -29,6 +29,12 @@ export default {
   props: {
     picture_src : String,
   },
+  methods: {
+    resolve_img_url: function (path) {
+      let images = require.context('../static/assets/', false, /\.png$|\.jpg$/)
+      return images("./" + path)
+    }
+  }
 }
 </script>
 
