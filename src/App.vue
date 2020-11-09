@@ -1,8 +1,9 @@
 <template>
   <div id="app">
     <totalMoney :callItem="1239" :totalSell="3123"/>
-    <bottomTabBar />
+    <ShoppingManagement picture_src="naver.jpg" Name="아몽스토어" shopName="스마트스토어"/>
     <Button />
+    <bottomTabBar />
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import bottomTabBar from './components/bottomTabBar.vue'
 import totalMoney from "./components/totalMoney.vue";
 import Button from './components/Button.vue'
+import ShoppingManagement from "@/components/ShoppingManagement";
 
 export default {
   name: 'App',
@@ -17,6 +19,7 @@ export default {
     bottomTabBar,
     totalMoney,
     Button,
+    ShoppingManagement,
   }
 }
 </script>
