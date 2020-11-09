@@ -1,28 +1,34 @@
 <template>
   <div id="app">
+    <Header headerTitle="SHOPORTER." />
     <bottomTabBar/>
-<!--    <login picture_src= 'coupangLogo.png' />-->
     <totalMoney :callItem="1239" :totalSell="3123"/>
-    <bottomTabBar />
     <Button />
     <Selectbar />
-    <Header headerTitle="SHOPORTER." />
+<!--    <ShoppingTotal picture_src= 'coupangLogo.png' />-->
+<!--    <login picture_src= 'coupangLogo.png' />-->
+    <bottomTabBar />
+
+
   </div>
 </template>
 
 <script>
 import bottomTabBar from './components/BottomTabBar.vue'
-// import login from './components/login';
 import totalMoney from "./components/TotalMoney.vue"
 import Button from './components/Button.vue'
 import Selectbar from './components/Selectbar.vue'
 import Header from './components/Header.vue'
+// import ShoppingTotal from "@/components/ShoppingTotal";
+// import login from './components/login';
+
 
 export default {
   name: 'App',
   components: {
-    bottomTabBar,
     // login,
+    // ShoppingTotal,
+    bottomTabBar,
     Button,
     Selectbar,
     totalMoney,
