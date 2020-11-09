@@ -2,6 +2,9 @@
   <div id="app">
     <Header headerTitle="SHOPORTER." />
     <totalMoney :callItem="1239" :totalSell="3123"/>
+    <ShoppingManagement picture_src="naver.jpg" Name="아몽스토어" shopName="스마트스토어"/>
+    <Button />
+    <bottomTabBar />
     <Button />
     <Selectbar />
     <VersionInfo currentVersion="0.0.1" newestVersion="0.0.1"/>
@@ -9,7 +12,6 @@
 <!--    <ShoppingTotal picture_src= 'coupangLogo.png' />-->
 <!--    <login picture_src= 'coupangLogo.png' />-->
     <bottomTabBar />
-
   </div>
 </template>
 
@@ -17,6 +19,7 @@
 import bottomTabBar from './components/BottomTabBar.vue'
 import totalMoney from "./components/TotalMoney.vue"
 import Button from './components/Button.vue'
+import ShoppingManagement from "@/components/ShoppingManagement";
 import Selectbar from './components/Selectbar.vue'
 import Header from './components/Header.vue'
 import VersionInfo from "@/components/VersionInfo";
@@ -32,6 +35,7 @@ export default {
     // ShoppingTotal,
     bottomTabBar,
     Button,
+    ShoppingManagement,
     Selectbar,
     totalMoney,
     Header,
