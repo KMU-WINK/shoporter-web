@@ -19,7 +19,7 @@ name: "Header",
 
 <style scoped>
   .Header {
-    width: 360px;
+    width: 100%;
     height: 48px;
     background-color: #F7F9FA;
     box-shadow: 0px 1px 0px #DAE0E6;

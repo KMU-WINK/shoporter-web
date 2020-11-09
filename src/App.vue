@@ -1,11 +1,9 @@
 <template>
   <div id="app">
     <Header headerTitle="SHOPORTER." />
-    <bottomTabBar/>
     <totalMoney :callItem="1239" :totalSell="3123"/>
     <Button />
     <Selectbar />
-    <Header headerTitle="SHOPORTER." />
     <VersionInfo currentVersion="0.0.1" newestVersion="0.0.1"/>
     <ShopInfo picture_src="coupangLogo.png" shopName="쿠팡"/>
 <!--    <ShoppingTotal picture_src= 'coupangLogo.png' />-->
