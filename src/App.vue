@@ -4,24 +4,25 @@
     <bottomTabBar />
     <Button />
     <Selectbar />
+    <Header headerTitle="SHOPORTER." />
   </div>
 </template>
 
 <script>
 import bottomTabBar from './components/bottomTabBar.vue'
-import totalMoney from "./components/totalMoney.vue";
+import totalMoney from "./components/totalMoney.vue"
 import Button from './components/Button.vue'
-import ShoppingTotal from "@/components/ShoppingTotal";
 import Selectbar from './components/Selectbar.vue'
+import Header from './components/Header.vue'
 
 export default {
   name: 'App',
   components: {
     bottomTabBar,
     Button,
-    ShoppingTotal,
-    Selectbar
+    Selectbar,
     totalMoney,
+    Header,
   }
 }
 </script>
