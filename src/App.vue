@@ -3,6 +3,7 @@
     <bottomTabBar />
     <Button />
     <Selectbar />
+    <Settingcard />
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import bottomTabBar from './components/bottomTabBar.vue'
 import Button from './components/Button.vue'
 import Selectbar from './components/Selectbar.vue'
+import Settingcard from './components/Settingcard.vue'
 
 
 export default {
@@ -17,7 +19,8 @@ export default {
   components: {
     bottomTabBar,
     Button,
-    Selectbar
+    Selectbar,
+    Settingcard,
   }
 }
 </script>
