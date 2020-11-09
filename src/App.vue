@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <bottomTabBar/>
-    <login picture_src= 'coupangLogo.png' />
+<!--    <login picture_src= 'coupangLogo.png' />-->
     <totalMoney :callItem="1239" :totalSell="3123"/>
     <bottomTabBar />
     <Button />
@@ -12,7 +12,7 @@
 
 <script>
 import bottomTabBar from './components/bottomTabBar.vue'
-import login from './components/login';
+// import login from './components/login';
 import totalMoney from "./components/totalMoney.vue"
 import Button from './components/Button.vue'
 import Selectbar from './components/Selectbar.vue'
@@ -22,7 +22,7 @@ export default {
   name: 'App',
   components: {
     bottomTabBar,
-    login,
+    // login,
     Button,
     Selectbar,
     totalMoney,
