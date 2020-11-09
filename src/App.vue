@@ -11,6 +11,7 @@
 import bottomTabBar from './components/bottomTabBar.vue'
 import totalMoney from "./components/totalMoney.vue";
 import Button from './components/Button.vue'
+import ShoppingTotal from "@/components/ShoppingTotal";
 import Selectbar from './components/Selectbar.vue'
 
 export default {
@@ -18,6 +19,7 @@ export default {
   components: {
     bottomTabBar,
     Button,
+    ShoppingTotal,
     Selectbar
     totalMoney,
   }
