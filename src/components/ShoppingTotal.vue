@@ -1,7 +1,7 @@
 <template>
   <div class="ShoppingTotal">
     <div>
-      <img :src="picture_src" />
+      <img :src="resolve_img_url(picture_src)" />
       {{ shopName }}
     </div>
     <div class="content">
@@ -37,6 +37,12 @@ name: "ShoppingTotal",
     cancel : String,
     question : String,
     picture_src : String,
+  },
+  methods: {
+    resolve_img_url: function (path) {
+      let images = require.context('../static/assets/', false, /\.png$|\.jpg$/)
+      return images("./" + path)
+    }
   }
 }
 </script>
