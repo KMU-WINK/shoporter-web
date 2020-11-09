@@ -5,6 +5,8 @@
     <Button />
     <Selectbar />
     <Header headerTitle="SHOPORTER." />
+    <VersionInfo currentVersion="0.0.1" newestVersion="0.0.1"/>
+    <ShopInfo picture_src="coupangLogo.png" shopName="쿠팡"/>
   </div>
 </template>
 
@@ -14,10 +16,14 @@ import totalMoney from "./components/totalMoney.vue"
 import Button from './components/Button.vue'
 import Selectbar from './components/Selectbar.vue'
 import Header from './components/Header.vue'
+import VersionInfo from "@/components/VersionInfo";
+import ShopInfo from "@/components/ShopInfo";
 
 export default {
   name: 'App',
   components: {
+    ShopInfo,
+    VersionInfo,
     bottomTabBar,
     Button,
     Selectbar,
