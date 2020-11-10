@@ -7,10 +7,10 @@
     <bottomTabBar />
     <Button />
     <Selectbar />
-    <Settingcard />
+    <Settingcard cardName="쇼핑몰 이름" check="(중복 사용 가능)"/>
     <VersionInfo currentVersion="0.0.1" newestVersion="0.0.1"/>
     <ShopInfo picture_src="coupangLogo.png" shopName="쿠팡"/>
-<!--    <ShoppingTotal picture_src= 'coupangLogo.png' />-->
+    <ShoppingTotal picture_src= 'coupangLogo.png' />
 <!--    <login picture_src= 'coupangLogo.png' />-->
     <bottomTabBar />
   </div>
@@ -26,15 +26,15 @@ import Settingcard from './components/Settingcard.vue'
 import Header from './components/Header.vue'
 import VersionInfo from "@/components/VersionInfo";
 import ShopInfo from "@/components/ShopInfo";
-// import ShoppingTotal from "@/components/ShoppingTotal";
-// import login from './components/login';
+import ShoppingTotal from "@/components/ShoppingTotal";
+// import login from "../src/components/Login.vue";
 
 
 export default {
   name: 'App',
   components: {
     // login,
-    // ShoppingTotal,
+    ShoppingTotal,
     bottomTabBar,
     Button,
     Settingcard,
