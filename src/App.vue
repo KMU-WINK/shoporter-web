@@ -7,6 +7,7 @@
     <bottomTabBar />
     <Button />
     <Selectbar />
+    <Settingcard />
     <VersionInfo currentVersion="0.0.1" newestVersion="0.0.1"/>
     <ShopInfo picture_src="coupangLogo.png" shopName="쿠팡"/>
 <!--    <ShoppingTotal picture_src= 'coupangLogo.png' />-->
@@ -21,6 +22,7 @@ import totalMoney from "./components/TotalMoney.vue"
 import Button from './components/Button.vue'
 import ShoppingManagement from "@/components/ShoppingManagement";
 import Selectbar from './components/Selectbar.vue'
+import Settingcard from './components/Settingcard.vue'
 import Header from './components/Header.vue'
 import VersionInfo from "@/components/VersionInfo";
 import ShopInfo from "@/components/ShopInfo";
@@ -35,6 +37,7 @@ export default {
     // ShoppingTotal,
     bottomTabBar,
     Button,
+    Settingcard,
     ShoppingManagement,
     Selectbar,
     totalMoney,
