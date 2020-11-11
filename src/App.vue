@@ -7,6 +7,7 @@
 </template>
 
 <script>
+
 import Header from "@/components/Header";
 import BottomTabBar from "@/components/BottomTabBar";
 
