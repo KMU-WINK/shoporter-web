@@ -12,14 +12,10 @@ name: "Button",
 
 <style scoped>
   .Button {
-    position: absolute;
     width: 328px;
     height: 48px;
-    left: 16px;
-    top: 706px;
     background-color: #3D454D;
     border-radius: 2px;
-
     font-family: SpoqaHanSans;
     font-style: normal;
     font-weight: normal;
