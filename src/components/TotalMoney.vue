@@ -50,7 +50,7 @@ export default {
   .totalMoney {
     display: flex;
     flex-direction: column;
-    background-color: #ffffff;
+    background-color: #F7F9FA;
     width: 360px;
     height: 108px;
   }
