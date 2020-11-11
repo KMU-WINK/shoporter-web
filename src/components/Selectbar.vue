@@ -1,6 +1,6 @@
 <template>
 <div class="Selectbar">
-  <span>주문 알림</span>
+  <span>{{ listName }}</span>
   <div>
     <label class="switch">
       <input type="checkbox">
@@ -12,7 +12,10 @@
 
 <script>
 export default {
-name: "Selectbar"
+  name: "Selectbar",
+  props : {
+    listName : String,
+  },
 }
 </script>
 

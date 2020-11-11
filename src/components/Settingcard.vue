@@ -1,13 +1,15 @@
 <template>
 <div>
-  <div class="card">
-    <div>
+  <div>
+    <div class="card">
       <span>{{ cardName}}</span>
       <span class="overlap">{{ check }}</span>
+      <slot>
+
+      </slot>
     </div>
   </div>
 </div>
-
 
 </template>
 
@@ -19,7 +21,6 @@ export default {
     check : String,
   }
 }
-
 </script>
 
 <style scoped>
