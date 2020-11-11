@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button  class = "Button">+ 쇼핑몰 추가 요청하기</button>
+    <button class="Button">+ 쇼핑몰 추가 요청하기</button>
   </div>
 </template>
 

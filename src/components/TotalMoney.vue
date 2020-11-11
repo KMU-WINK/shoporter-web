@@ -53,6 +53,7 @@ export default {
     background-color: #F7F9FA;
     width: 360px;
     height: 108px;
+
   }
   .totalMoney > div {
     display: flex;
