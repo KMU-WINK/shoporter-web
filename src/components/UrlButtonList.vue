@@ -1,7 +1,7 @@
 <template>
     <div class="addShopButtonCSS">
       <div>{{ addList }}</div>
-      <img src="../static/assets/linkNextPageLogo.png">
+      <img src="../static/assets/linkNextPageLogo.png" alt="linkNextPageLogo">
     </div>
 </template>
 
@@ -15,33 +15,26 @@ name: "UrlButtonList",
 </script>
 
 <style scoped>
-
   .addShopButtonCSS{
     background-color: white;
     font-family: SpoqaHanSans;
     color : #3D454D;
     font-style: normal;
     width: 328px;
-    Height: 55px;
-    font-size: 16px;
-    line-height: 16px;
+    Height: 50px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
   .addShopButtonCSS div{
-    margin: 19px 166px 22px 16px;
-    width: 121px;
-    height: 16px;
-    font-weight: normal;
+    padding: 16px;
+    margin: 16px 16px 20px 0;
   }
-  .addShopButtonCSS button{
-    margin: 19px 16px 22px 0;
-    background-color: white;
+  .addShopButtonCSS img{
+    display: inline-block;
+    margin: 19px 16px 20px 0;
     width: 9px;
-    height: 16px;
-    border: 0;
-    font-weight: bold;
-
   }
 
 </style>

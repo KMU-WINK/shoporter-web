@@ -25,7 +25,7 @@ name: "VersionInfo",
     align-items: center;
     justify-content: space-between;
     width: 328px;
-    height: 60px;
+    height: 50px;
     background-color: #ffffff;
   }
   .title {
